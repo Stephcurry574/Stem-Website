@@ -1,0 +1,126 @@
+
+
+        body{
+        background-color: rgb(242, 240, 225);
+        }
+
+        p{
+        background-color: rgb(224, 96, 61);
+        color: rgb(222, 222, 222);
+        font-family: Papyrus;
+        }
+        .hd{
+        background-color: rgb(242, 240, 225);
+        color: rgb(0, 0, 0);
+        font-size: 35px;
+        }
+         .h1{
+        font-size: 50px;
+        color: rgb(0, 0, 0);
+        background-color: rgb(242, 240, 225);
+        font-family: Papyrus;
+        font-weight: bold;
+        text-align: center;
+        }
+        .classy{
+        font-size: 25px;
+        width: 800px;
+        padding-right: 700px;
+        }
+        .show{
+        display: block;
+        }
+        .sub-description1{
+        width: 600px;
+        transition: width 0.4s;
+        }
+        .sub-description1:hover{
+        width: 650px;
+        cursor: pointer;
+        }
+        .sub-description2{
+        width: 600px;
+        transition: width 0.4s;
+        }
+        .sub-description2:hover{
+        width: 650px;
+        cursor: pointer;
+        }
+
+        .recipes{
+        background: rgb(189, 104, 13);
+        color: rgb(247, 215, 32);
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;
+        font-family: Papyrus;
+        text-align: center;
+        font-style: Italics;
+        transition: opacity 0.2s;
+        }
+
+        .recipes:hover{
+        opacity: 0.6;
+        padding-top:10px;
+        padding-bottom: 10px;
+        padding-left: 6px;
+        padding-right: 6px;
+        transition: padding 0.6s;
+        }
+
+        .recipes:active{
+        opacity: 0.3;
+        }
+
+        .references{
+        background: rgb(42, 74, 252);
+        color: rgb(255, 91, 41);
+        border: none;
+        border-radius: 3px;
+        width: 90px;
+        height: 25px;
+        cursor: pointer;
+        font-family: Papyrus;
+        text-align: center;
+        font-style: Italics;
+        font-weight: bold;
+        margin-left: 10px;
+        transition: background 0.2s, color 0.2s;
+        }
+
+        .description{
+        display: inline-block;
+        }
+
+        .references:hover{
+        background: rgb(186, 2, 21);
+        color: rgb(112, 122, 255);
+        }
+
+        .references:active{
+        opacity: 0.2;
+        }
+        .sub-recipes{
+        background: rgb(100, 150, 200);
+        color: rgb(255, 255, 255);
+        border: dashed;
+        border-weight: 3px;
+        border-color: rgb(189, 104, 13);
+        border-radius: 6px;
+        padding: 2px;
+        cursor: pointer;
+        font-family: Papyrus;
+        text-align: center;
+        font-style: Italics;
+        font-weight: bold;
+        transition: padding 0.4s;
+
+        }
+        .sub-recipes:hover{
+        padding: 4px;
+        }
+        .image1{
+        width: 650px;
+        height: 500px;
+
+        }
