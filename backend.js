@@ -61,7 +61,10 @@ if (meal=="Appetizers" && restriction=="None"){
 else if (meal=="Appetizers" && spice=="Spicy"){
     spice="Spicy"
 }
-else if ((meal=="Vegetarian" || "Vegan" || "Dessert" )&& spice=="Spicy"){
+else if ((restriction=="Vegetarian" || "Vegan" )&& spice=="Spicy"){
+    spice="Mild"
+}
+else if ((meal=="Dessert")&& spice=="Spicy"){
     spice="Mild"
 }
 if (meal=="Dessert" && restriction=="None"){
