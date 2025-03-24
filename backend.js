@@ -58,7 +58,7 @@ for (i=0;i<2;i++){
 if (meal=="Appetizers" && restriction=="None"){
     restriction="Vegetarian"
 }
-else if (restriction=="Vegetarian" && meal=="Entree" && spice=="Spicy" ){
+else if (restriction=="Vegetarian" && meal=="Entrees" && spice=="Spicy" ){
     spice="Mild"
 }
 else if (restriction=="Vegan" && spice=="Spicy" ){
