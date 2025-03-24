@@ -162,7 +162,7 @@ random_number=Math.floor(Math.random()* actual_meal.length)
 final_meal=actual_meal[random_number]
 
 
-output=('We recommend for you to try our '+final_meal+' which can be found by going into the "our recipes" button and then clicking ' +meal+'.');
+output=('We recommend for you to try our '+final_meal+' which can be found by going into the "Our Recipes" button at the top left  and going under the ' +meal+'bar.');
 alert(output);
 
 
