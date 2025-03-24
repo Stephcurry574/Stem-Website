@@ -1,4 +1,6 @@
-
+        .links a{
+        text-decoration: none;
+        }
 
         body{
         background-color: rgb(242, 240, 225);
