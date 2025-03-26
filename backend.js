@@ -162,24 +162,12 @@ random_number=Math.floor(Math.random()* actual_meal.length)
 final_meal=actual_meal[random_number]
 
 
-output=('We recommend for you to try our '+final_meal+' which can be found by going into the "Our Recipes" button at the top left  and going under the ' +meal+'bar.');
+output=('We recommend for you to try our '+final_meal+' which can be found by going into the "Our Recipes" button at the top left  and going under the ' +meal+' bar.');
 alert(output);
 
 
 
 
-// document.getElementById('final_print').style.display = 'inline-block';
-// document.getElementById("final_print").firstChild.nodeValue = "<p>"+output+"</p>";
-//document.body.innerHTML += "<p id='the_final'>"+output+"</p>";
-//$(".final_print").html("<p>"+output+"</p>")
-//document.querySelector('final_print').appendChild(output)
-//document.getElementById('element').insertBefore(document.getElementById("quiz"),"<p>"+output+"</p>")
-//document.getElementById('final_print').appendChild(document.createElement("div"))
-// node=document.getElementById("child");
-//document.body.children
-// times_of_click+=1
-// const ok = document.getElementById("the_final");
-//     if (times_of_click>=2){
-//         document.body.innerHTML -= ok;
+
 
     }
